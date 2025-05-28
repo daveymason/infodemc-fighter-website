@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infodemic Fighter • Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <snap-container>
+    <snap-dots></snap-dots> <!-- Added for navigation dots -->
+    <snap-section class="hero-section entry-top section-theme-blue-pill"> <!-- Blue Theme -->
+         <container>
+             <h1>Infodemic Fighter</h1>
+             <p>A lightweight Chrome extension that adds subtle bias and reliability indicators to search results on Google, Bing, and DuckDuckGo. <strong>Received a Perplexity Power-Up</strong> - uses the Sonar API to "Follow the Money" feature, giving users the ability to research who funds media sources.</p>
+             <a href="#quick-start" class="cta-button">Install Now</a>
+         </container>
+    </snap-section>
+
+     <!-- Key Benefits Section (previously Features) -->
+    <snap-section id="features" class="features-section entry-top-right section-theme-red-pill"> <!-- Red Theme -->
+         <container>
+             <h2>Why Choose Infodemic Fighter?</h2>
+            <div class="features-grid">
+                <info-card primary> <!-- This card's title will use its own 'primary' color, not section red -->
+                    <info-card-content>
+                        <info-card-title>Reliability Indicators</info-card-title>
+                        <info-card-text>Color-coded cues tell you which sources you can trust at a glance.</info-card-text>
+                    </info-card-content>
+                </info-card>
+                <info-card secondary> <!-- This card's title will use its own 'secondary' color -->
+                    <info-card-content>
+                        <info-card-title>Bias Detection</info-card-title>
+                        <info-card-text>Identify potential slants and framing before you click.</info-card-text>
+                    </info-card-content>
+                </info-card>
+                <info-card tertiary>
+                    <info-card-content>
+                        <info-card-title>Clear Visual Cues</info-card-title>
+                        <info-card-text>Reduce information overload with concise markers.</info-card-text>
+                    </info-card-content>
+                </info-card>
+                <info-card quaternary>
+                    <info-card-content>
+                        <info-card-title>Critical Prompts</info-card-title>
+                        <info-card-text>(Coming soon) Nudge yourself to think deeper before sharing.</info-card-text>
+                    </info-card-content>
+                </info-card>
+            </div>
+        </container>
+    </snap-section>
+
+    <!-- Detailed Features Section -->
+    <snap-section id="detailed-features" class="entry-bottom-left section-theme-blue-pill"> <!-- Blue Theme -->
+        <container>
+            <h2>Detailed Features</h2>
+            <!-- MODIFIED: Convert ul to features-grid with info-cards -->
+            <div class="features-grid">
+                <info-card>
+                    <info-card-content>
+                        <info-card-title>Political Bias</info-card-title>
+                        <info-card-text>Marks sites as Left, Lean Left, Center, Lean Right, or Right.</info-card-text>
+                    </info-card-content>
+                </info-card>
+                <info-card>
+                    <info-card-content>
+                        <info-card-title>Reliability</info-card-title>
+                        <info-card-text>Rates sources as High, Medium, or Low trustworthiness.</info-card-text>
+                    </info-card-content>
+                </info-card>
+                <info-card>
+                    <info-card-content>
+                        <info-card-title>Follow the Money</info-card-title>
+                        <info-card-text>Research funding sources and ownership via Perplexity AI.</info-card-text>
+                    </info-card-content>
+                </info-card>
+                <info-card>
+                    <info-card-content>
+                        <info-card-title>Context Menu Tools</info-card-title>
+                        <info-card-text>Right-click any link to visualize bias, find alternatives, or follow funding.</info-card-text>
+                    </info-card-content>
+                </info-card>
+                <info-card>
+                    <info-card-content>
+                        <info-card-title>Minimalist UI</info-card-title>
+                        <info-card-text>Clean design following HCI principles with Light/Dark themes.</info-card-text>
+                    </info-card-content>
+                </info-card>
+                <info-card>
+                    <info-card-content>
+                        <info-card-title>Privacy-Focused</info-card-title>
+                        <info-card-text>Local analysis with no user data collection.</info-card-text>
+                    </info-card-content>
+                </info-card>
+            </div>
+        </container>
+    </snap-section>
+
+    <!-- Perplexity Power-Up Section -->
+    <snap-section id="perplexity-power-up" class="entry-top-right section-theme-red-pill"> <!-- Red Theme -->
+        <container>
+            <h2>🚀 Perplexity Power-Up: Follow the Money</h2>
+            <blockquote>
+                <p>"Ever wonder who's really funding that news story? In our fight against misinformation, knowing the money trail is crucial. With Infodemic Fighter's new Perplexity Power-Up, just right-click any link and select 'Follow the Money'. Our AI instantly reveals the ownership structure, funding sources, and financial interests behind any media outlet. See corporate ties, potential conflicts of interest, and how funding might influence editorial decisions. Whether it's billionaire backers, government funding, or corporate sponsors - transparency is your superpower. Because when you follow the money, you follow the truth."</p>
+            </blockquote>
+            <h3>What It Does</h3>
+            <div class="features-grid"> <!-- Using features-grid for consistency -->
+                <info-card>
+                    <info-card-content>
+                        <info-card-title>Ownership Structure</info-card-title>
+                        <info-card-text>Who owns and controls the media outlet.</info-card-text>
+                    </info-card-content>
+                </info-card>
+                <info-card>
+                    <info-card-content>
+                        <info-card-title>Funding Sources</info-card-title>
+                        <info-card-text>Primary revenue streams and financial backers.</info-card-text>
+                    </info-card-content>
+                </info-card>
+                <info-card>
+                    <info-card-content>
+                        <info-card-title>Corporate Ties</info-card-title>
+                        <info-card-text>Business relationships and potential conflicts of interest.</info-card-text>
+                    </info-card-content>
+                </info-card>
+                <info-card>
+                    <info-card-content>
+                        <info-card-title>Risk Assessment</info-card-title>
+                        <info-card-text>How funding might influence editorial decisions.</info-card-text>
+                    </info-card-content>
+                </info-card>
+            </div>
+            <h3>Why It Matters</h3>
+            <div class="features-grid"> <!-- Using features-grid for consistency -->
+                 <info-card>
+                    <info-card-content>
+                        <info-card-title>Identify Conflicts</info-card-title> <!-- Shortened for card -->
+                        <info-card-text>Identify potential conflicts of interest.</info-card-text>
+                    </info-card-content>
+                </info-card>
+                <info-card>
+                    <info-card-content>
+                        <info-card-title>Editorial Independence</info-card-title>
+                        <info-card-text>Recognize editorial independence (or lack thereof).</info-card-text>
+                    </info-card-content>
+                </info-card>
+                <info-card>
+                    <info-card-content>
+                        <info-card-title>Informed Decisions</info-card-title>
+                        <info-card-text>Make informed decisions about source credibility.</info-card-text>
+                    </info-card-content>
+                </info-card>
+                <info-card>
+                    <info-card-content>
+                        <info-card-title>Combat Misinformation</info-card-title>
+                        <info-card-text>Combat financially-motivated misinformation.</info-card-text>
+                    </info-card-content>
+                </info-card>
+            </div>
+            <p><em>Powered by Perplexity's Sonar API for real-time, comprehensive media analysis.</em></p>
+        </container>
+    </snap-section>
+
+     <!-- Clear Usage Guide Section (previously How It Works) -->
+    <snap-section id="usage" class="how-it-works-section entry-bottom-left section-theme-blue-pill"> <!-- Blue Theme -->
+         <container>
+             <h2>Clear Usage Guide</h2>
+             <ol class="steps-list">
+                <li>Perform a web search on Google, Bing, or DuckDuckGo.</li>
+                <li>View bias and reliability icons next to each result.</li>
+                <li>Hover icons for quick source information.</li>
+                <li>Right-click any link for detailed analysis options.</li>
+            </ol>
+        </container>
+    </snap-section>
+
+     <!-- Quick Start Section (previously Install) -->
+    <snap-section id="quick-start" class="install-section entry-bottom-right section-theme-red-pill"> <!-- Red Theme -->
+         <container>
+             <h2>Quick Start</h2>
+              <p><strong>Install from Chrome Web Store:</strong> <a href="https://chromewebstore.google.com/detail/infodemic-fighter/ebcmohgfdgkadgokpmoaeneeebnfkfbo" target="_blank" class="cta-button">Infodemic Fighter</a></p>
+              <p><strong>For developers:</strong> Enable Developer Mode in <code>chrome://extensions/</code>, click "Load unpacked", and select the extension folder.</p>
+              <div class="code-snippet">
+                <pre><code>chrome://extensions &gt; Load unpacked &gt; Select <em>infodemic-fighter</em> folder</code></pre>
+              </div>
+        </container>
+    </snap-section>
+
+    <!-- The Problem We're Solving Section -->
+    <snap-section id="the-problem" class="entry-top-left section-theme-blue-pill"> <!-- Blue Theme -->
+        <container>
+            <h2>The Problem We're Solving</h2>
+            <p>Our society today is zombie walking into a problem that we thought only existed during COVID: the "infodemic" - an overabundance of information that makes it difficult to think critically and find trustworthy sources. This creates:</p>
+            <!-- Using features-grid for consistency -->
+            <div class="features-grid">
+                <info-card>
+                    <info-card-content>
+                        <info-card-title>🌐 Information Overload</info-card-title>
+                        <info-card-text>Preventing effective credibility evaluation.</info-card-text>
+                    </info-card-content>
+                </info-card>
+                <info-card>
+                    <info-card-content>
+                        <info-card-title>🔄 Media Polarization</info-card-title>
+                        <info-card-text>Creating siloed information ecosystems.</info-card-text>
+                    </info-card-content>
+                </info-card>
+                <info-card>
+                    <info-card-content>
+                        <info-card-title>⚡ Misinformation Spread</info-card-title>
+                        <info-card-text>Outpacing fact-checking efforts.</info-card-text>
+                    </info-card-content>
+                </info-card>
+                <info-card>
+                    <info-card-content>
+                        <info-card-title>🔍 Lack of Tools</info-card-title>
+                        <info-card-text>For quick source assessment.</info-card-text>
+                    </info-card-content>
+                </info-card>
+                <info-card>
+                    <info-card-content>
+                        <info-card-title>📰 Quality Control Collapse</info-card-title>
+                        <info-card-text>In traditional media mechanisms.</info-card-text>
+                    </info-card-content>
+                </info-card>
+            </div>
+        </container>
+    </snap-section>
+
+    <!-- Our Solution Section -->
+    <snap-section id="our-solution" class="entry-bottom-right section-theme-red-pill"> <!-- Red Theme -->
+        <container>
+            <h2>Our Solution</h2>
+            <p>Infodemic Fighter empowers users to make informed decisions by:</p>
+            <!-- Using features-grid for consistency -->
+            <div class="features-grid">
+                <info-card>
+                    <info-card-content>
+                        <info-card-title>🏷️ Transparent Indicators</info-card-title>
+                        <info-card-text>Bias and reliability in search results.</info-card-text>
+                    </info-card-content>
+                </info-card>
+                <info-card>
+                    <info-card-content>
+                        <info-card-title>📊 Political Context</info-card-title>
+                        <info-card-text>With factual reporting quality.</info-card-text>
+                    </info-card-content>
+                </info-card>
+                <info-card>
+                    <info-card-content>
+                        <info-card-title>🖱️ One-Click Analysis</info-card-title>
+                        <info-card-text>Source visualization and analysis.</info-card-text>
+                    </info-card-content>
+                </info-card>
+                <info-card>
+                    <info-card-content>
+                        <info-card-title>🔄 Alternative Sources</info-card-title>
+                        <info-card-text>Suggestions from different perspectives.</info-card-text>
+                    </info-card-content>
+                </info-card>
+                <info-card>
+                    <info-card-content>
+                        <info-card-title>💰 Funding Transparency</info-card-title>
+                        <info-card-text>Through AI-powered research.</info-card-text>
+                    </info-card-content>
+                </info-card>
+                <info-card>
+                    <info-card-content>
+                        <info-card-title>🧪 Scientific Presentation</info-card-title>
+                        <info-card-text>Non-judgmental and objective.</info-card-text>
+                    </info-card-content>
+                </info-card>
+            </div>
+        </container>
+    </snap-section>
+
+    <!-- Technical Details Section -->
+    <snap-section id="technical-details" class="entry-top-right section-theme-blue-pill"> <!-- Blue Theme -->
+        <container>
+            <h2>Technical Details</h2>
+            <p><strong>Data Sources:</strong> Aggregates ratings from Ad Fontes Media, AllSides, Media Bias/Fact Check, and other research organizations covering 2,000+ news sources.</p>
+            <p><strong>Privacy:</strong> All analysis runs client-side; no external data transmission except for optional AI features.</p>
+            <p><strong>Compatibility:</strong> Chrome 88+, with planned Firefox and Edge support.</p>
+        </container>
+    </snap-section>
+
+     <!-- Footer -->
+    <snap-section class="footer entry-bottom-left section-theme-red-pill"> <!-- Red Theme -->
+        <container>
+            <div class="footer-content">
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Infodemic Fighter. All rights reserved.</p>
+                    <p>MIT License.<!-- For a real link, you would have a LICENSE file: See <a href="LICENSE">LICENSE</a> for details. --></p>
+                </div>
+            </div>
+        </container>
+    </snap-section>
+    </snap-container>
+    <script src="scripts.js"></script>
+ </body>
+</html>
