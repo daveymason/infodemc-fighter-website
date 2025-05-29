@@ -11,9 +11,16 @@
     <snap-dots></snap-dots> <!-- Added for navigation dots -->
     <snap-section class="hero-section entry-top section-theme-blue-pill"> <!-- Blue Theme -->
          <container>
-             <h1>Infodemic Fighter</h1>
-             <p>A lightweight Chrome extension that adds subtle bias and reliability indicators to search results on Google, Bing, and DuckDuckGo. <strong>Received a Perplexity Power-Up</strong> - uses the Sonar API to "Follow the Money" feature, giving users the ability to research who funds media sources.</p>
-             <a href="#quick-start" class="cta-button">Install Now</a>
+             <div class="hero-content-wrapper">
+                                 <div class="hero-column hero-logo-column">
+                     <img src="img/logo-info--fighter.png" alt="Infodemic Fighter Logo" class="hero-logo">
+                 </div>
+                 <div class="hero-column hero-text-column">
+                     <h1><span class="title-blue">Infodemic</span> <span class="title-red">Fighter</span></h1>
+                     <p class="fh-xl">Lightweight Chrome extension that adds subtle bias and reliability indicators to search results on Google, Bing, and DuckDuckGo. <strong>Received a Perplexity Power-Up</strong> - uses the Sonar API to "Follow the Money" feature, giving users the ability to research who funds media sources.</p>
+                     <a href="https://chromewebstore.google.com/detail/infodemic-fighter/ebcmohgfdgkadgokpmoaeneeebnfkfbo" target="_blank" class="cta-button">Install Now on Chrome</a>
+                 </div>
+             </div>
          </container>
     </snap-section>
 
@@ -100,9 +107,6 @@
     <snap-section id="perplexity-power-up" class="entry-top-right section-theme-red-pill"> <!-- Red Theme -->
         <container>
             <h2>🚀 Perplexity Power-Up: Follow the Money</h2>
-            <blockquote>
-                <p>"Ever wonder who's really funding that news story? In our fight against misinformation, knowing the money trail is crucial. With Infodemic Fighter's new Perplexity Power-Up, just right-click any link and select 'Follow the Money'. Our AI instantly reveals the ownership structure, funding sources, and financial interests behind any media outlet. See corporate ties, potential conflicts of interest, and how funding might influence editorial decisions. Whether it's billionaire backers, government funding, or corporate sponsors - transparency is your superpower. Because when you follow the money, you follow the truth."</p>
-            </blockquote>
             <h3>What It Does</h3>
             <div class="features-grid"> <!-- Using features-grid for consistency -->
                 <info-card>
@@ -130,60 +134,17 @@
                     </info-card-content>
                 </info-card>
             </div>
-            <h3>Why It Matters</h3>
-            <div class="features-grid"> <!-- Using features-grid for consistency -->
-                 <info-card>
-                    <info-card-content>
-                        <info-card-title>Identify Conflicts</info-card-title> <!-- Shortened for card -->
-                        <info-card-text>Identify potential conflicts of interest.</info-card-text>
-                    </info-card-content>
-                </info-card>
-                <info-card>
-                    <info-card-content>
-                        <info-card-title>Editorial Independence</info-card-title>
-                        <info-card-text>Recognize editorial independence (or lack thereof).</info-card-text>
-                    </info-card-content>
-                </info-card>
-                <info-card>
-                    <info-card-content>
-                        <info-card-title>Informed Decisions</info-card-title>
-                        <info-card-text>Make informed decisions about source credibility.</info-card-text>
-                    </info-card-content>
-                </info-card>
-                <info-card>
-                    <info-card-content>
-                        <info-card-title>Combat Misinformation</info-card-title>
-                        <info-card-text>Combat financially-motivated misinformation.</info-card-text>
-                    </info-card-content>
-                </info-card>
-            </div>
-            <p><em>Powered by Perplexity's Sonar API for real-time, comprehensive media analysis.</em></p>
-        </container>
-    </snap-section>
-
-     <!-- Clear Usage Guide Section (previously How It Works) -->
-    <snap-section id="usage" class="how-it-works-section entry-bottom-left section-theme-blue-pill"> <!-- Blue Theme -->
-         <container>
-             <h2>Clear Usage Guide</h2>
-             <ol class="steps-list">
-                <li>Perform a web search on Google, Bing, or DuckDuckGo.</li>
-                <li>View bias and reliability icons next to each result.</li>
-                <li>Hover icons for quick source information.</li>
-                <li>Right-click any link for detailed analysis options.</li>
-            </ol>
-        </container>
-    </snap-section>
-
-     <!-- Quick Start Section (previously Install) -->
-    <snap-section id="quick-start" class="install-section entry-bottom-right section-theme-red-pill"> <!-- Red Theme -->
-         <container>
-             <h2>Quick Start</h2>
-              <p><strong>Install from Chrome Web Store:</strong> <a href="https://chromewebstore.google.com/detail/infodemic-fighter/ebcmohgfdgkadgokpmoaeneeebnfkfbo" target="_blank" class="cta-button">Infodemic Fighter</a></p>
-              <p><strong>For developers:</strong> Enable Developer Mode in <code>chrome://extensions/</code>, click "Load unpacked", and select the extension folder.</p>
-              <div class="code-snippet">
-                <pre><code>chrome://extensions &gt; Load unpacked &gt; Select <em>infodemic-fighter</em> folder</code></pre>
-              </div>
-        </container>
+            
+            <div class="perplexity-content-wrapper">
+                <div class="perplexity-text-column">
+                    <blockquote>
+                        <p>"Ever wonder who's really funding that news story? In our fight against misinformation, knowing the money trail is crucial. With Infodemic Fighter's new Perplexity Power-Up, just right-click any link and select 'Follow the Money'. Our AI instantly reveals the ownership structure, funding sources, and financial interests behind any media outlet."</p>
+                    </blockquote>
+                </div>
+                <div class="perplexity-image-column">
+                    <img src="img/info-fighter.png" alt="Infodemic Fighter Information Visualization" class="perplexity-image">
+                </div>
+            </div>        </container>
     </snap-section>
 
     <!-- The Problem We're Solving Section -->
@@ -221,6 +182,33 @@
                     <info-card-content>
                         <info-card-title>📰 Quality Control Collapse</info-card-title>
                         <info-card-text>In traditional media mechanisms.</info-card-text>
+                    </info-card-content>
+                </info-card>
+            </div>
+            <h3>Why It Matters</h3>
+            <div class="features-grid"> <!-- Using features-grid for consistency -->
+                 <info-card>
+                    <info-card-content>
+                        <info-card-title>Identify Conflicts</info-card-title> <!-- Shortened for card -->
+                        <info-card-text>Identify potential conflicts of interest.</info-card-text>
+                    </info-card-content>
+                </info-card>
+                <info-card>
+                    <info-card-content>
+                        <info-card-title>Editorial Independence</info-card-title>
+                        <info-card-text>Recognize editorial independence (or lack thereof).</info-card-text>
+                    </info-card-content>
+                </info-card>
+                <info-card>
+                    <info-card-content>
+                        <info-card-title>Informed Decisions</info-card-title>
+                        <info-card-text>Make informed decisions about source credibility.</info-card-text>
+                    </info-card-content>
+                </info-card>
+                <info-card>
+                    <info-card-content>
+                        <info-card-title>Combat Misinformation</info-card-title>
+                        <info-card-text>Combat financially-motivated misinformation.</info-card-text>
                     </info-card-content>
                 </info-card>
             </div>
@@ -281,6 +269,13 @@
             <p><strong>Data Sources:</strong> Aggregates ratings from Ad Fontes Media, AllSides, Media Bias/Fact Check, and other research organizations covering 2,000+ news sources.</p>
             <p><strong>Privacy:</strong> All analysis runs client-side; no external data transmission except for optional AI features.</p>
             <p><strong>Compatibility:</strong> Chrome 88+, with planned Firefox and Edge support.</p>
+                         <h2>Clear Usage Guide</h2>
+             <ol class="steps-list">
+                <li>Perform a web search on Google, Bing, or DuckDuckGo.</li>
+                <li>View bias and reliability icons next to each result.</li>
+                <li>Hover icons for quick source information.</li>
+                <li>Right-click any link for detailed analysis options.</li>
+            </ol>
         </container>
     </snap-section>
 
